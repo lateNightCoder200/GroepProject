@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSNtNtvvW0OHThN6o/PueyPSYkpMCn++touSVgBElubpuDSstQQX/0djUabaTwZOv2ZHbYLmjC/C4SgOe/izJQ==",
+  "dgSpecHash": "EiddXOFVYHKvf5RrA9j0JVOTotU0P1D9EcqFeNigL92upG6jIN90i7Eq3Hg1sLWuSwAIE8cZFOH8lvjFYilXsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kathi\\Desktop\\schoolProjects\\UnityGroupProject\\GroepProject\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\kathi\\Desktop\\schoolProjects\\GroepProject\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kathi\\.nuget\\packages\\avans.identity.dapperorm\\1.0.3\\avans.identity.dapperorm.1.0.3.nupkg.sha512",
     "C:\\Users\\kathi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
