@@ -1,4 +1,5 @@
-﻿using API.DataModel.Models;
+﻿using API.DataModel.DTO;
+using API.DataModel.Models;
 
 namespace API.Repository.UserRepo
 {
@@ -9,6 +10,10 @@ namespace API.Repository.UserRepo
         public Task<string> getUserId(string username);
         public Task<bool> setPatientInfo( PatientInfo patientInfo);
 
-        public Task<Guid> getPatientUserId(string userId);
+        public Task<Guid> getPatientId(string userId);
+
+        public Task<PatientInfo> getPatientInfoByUserId(string userId);
+
+        public Task<bool> updatePatientInfo(PatientInfo  patientInfo);
     }
 }

@@ -3,6 +3,7 @@ using API.DataModel;
 using API.DataModel.DTO;
 using API.DataModel.Models;
 using Dapper;
+using System.Net.NetworkInformation;
 
 namespace API.Repository.UserRepo
 {
@@ -35,7 +36,7 @@ namespace API.Repository.UserRepo
 
 
         //I use this method to check if user already stored his patient info
-        public async Task<Guid> getPatientUserId(string userId)
+        public async Task<Guid> getPatientId(string userId)
         {
             using var connection = _context.CreateConnection();
 
@@ -70,5 +71,31 @@ namespace API.Repository.UserRepo
                            
         }
 
+        public async Task<PatientInfo> getPatientInfoByUserId(string userId)
+        {
+            using var connection = _context.CreateConnection();
+
+            string query = "SELECT * FROM Patient WHERE UserId = @UserId";
+
+            return await connection.QueryFirstOrDefaultAsync<PatientInfo>(query, new { UserId = userId });
+        }
+
+        public async Task<bool> updatePatientInfo(PatientInfo patientInfo)
+        {
+            using var connection = _context.CreateConnection();
+
+            string query = @"UPDATE Patient 
+                 SET UserId = @UserId, 
+                     FirstName = @FirstName, 
+                     LastName = @LastName, 
+                     BirthDate = @BirthDate, 
+                     City = @City, 
+                     Hospital = @Hospital
+                 WHERE Id = @Id";
+
+            int rowsAffected = await connection.ExecuteAsync(query, patientInfo);
+
+            return rowsAffected > 0;
+        }
     }
 }

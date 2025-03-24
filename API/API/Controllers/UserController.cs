@@ -55,7 +55,7 @@ namespace API.Controllers
                 return NotFound("User does not exist!");
 
             //Check if patient info already exist
-            var patientUserId = await _userRepository.getPatientUserId(userId);
+            var patientUserId = await _userRepository.getPatientId(userId);
 
             if (patientUserId != null)
                 return BadRequest("User already has patient information");
@@ -79,5 +79,79 @@ namespace API.Controllers
 
             return Ok();
         }
+
+        [HttpGet("/GetUserInfo")]
+
+        public async Task<ActionResult<PatientInfoDTO>> getUserInfo(string userEmail)
+        {
+            if (userEmail == null)
+                return BadRequest("Email can't be null!");
+
+            //Validate user id
+            var getUserId = await _userRepository.getUserId(userEmail);
+
+            if (getUserId == null)
+                return NotFound("Invalid email!");
+
+            //Get patient info from the database
+            var getPatientInfo = await _userRepository.getPatientInfoByUserId(getUserId);
+
+            //Transfer data from PatientInfo object into PatientInfoDTO for security
+
+            PatientInfoDTO patinetData = new PatientInfoDTO()
+            {
+                email = userEmail,
+                FirstName = getPatientInfo.FirstName,
+                LastName = getPatientInfo.LastName,
+                City = getPatientInfo.City,
+                BirthDate = getPatientInfo.BirthDate,
+                Hospital = getPatientInfo.Hospital
+            };
+
+            return Ok(patinetData);
+        }
+
+        [HttpPut("UpdatePatientInfo")]
+
+        public async Task<IActionResult> updatePatientData(PatientInfoDTO patientInfoDTO)
+        {
+            if (patientInfoDTO == null)
+                return BadRequest("patient data can't be null!");
+
+            //get userID 
+            var getUserId = await _userRepository.getUserId(patientInfoDTO.email);
+
+            if (getUserId == null)
+                return BadRequest("This email is not registerd!");
+
+            //get patient id by userId
+            var getPatientId = await _userRepository.getPatientId(getUserId);
+
+            if (getPatientId == null)
+                return BadRequest("This email does not have a registerd patient!");
+
+            PatientInfo patientInfo = new PatientInfo()
+            {
+                FirstName = patientInfoDTO.FirstName,
+                LastName = patientInfoDTO.LastName,
+                City = patientInfoDTO.City,
+                Hospital = patientInfoDTO.Hospital,
+                UserId = getUserId,
+                Id = getPatientId,
+                BirthDate = patientInfoDTO.BirthDate,
+            };
+
+            //update patientInfo
+            var updatePatientInfo = await _userRepository.updatePatientInfo(patientInfo);
+
+            if (!updatePatientInfo)
+                return BadRequest("Invalid data!");
+
+            return Ok(patientInfo);
+
+        }
+
     }
+
+    
 }
