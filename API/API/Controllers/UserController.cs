@@ -9,7 +9,7 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository ;
@@ -149,6 +149,27 @@ namespace API.Controllers
 
             return Ok(patientInfo);
 
+        }
+
+        [HttpGet("/CheckPatientInfo{userEmail}")]
+
+        public async Task<IActionResult> checkPatientInfo(string userEmail)
+        {
+            if (string.IsNullOrEmpty(userEmail))
+                return BadRequest("User name must not be null");
+
+            //get userID 
+            var getUserId = await _userRepository.getUserId(userEmail);
+
+            if (getUserId == null)
+                return BadRequest("This email is not registerd!");
+
+            var getPatientInfo = await _userRepository.getPatientInfoByUserId(getUserId);
+
+            if (getPatientInfo == null)
+                return BadRequest();
+
+            return Ok();
         }
 
     }
