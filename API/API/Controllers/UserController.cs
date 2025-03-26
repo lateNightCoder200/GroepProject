@@ -9,7 +9,7 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository ;
@@ -26,9 +26,9 @@ namespace API.Controllers
             if (data == null)
                 return BadRequest("Username cannot be empty.");
 
-            var checkUserName = _userRepository.getByUserName(data.NewUserName);
+            var checkUserName = await _userRepository.getByUserName(data.NewUserName);
 
-            if (checkUserName != null)
+            if (!string.IsNullOrEmpty(checkUserName))
                 return BadRequest("Username already exists!");
 
             bool IsUserUpdated = await _userRepository.updateUserName( data.email , data.NewUserName);
@@ -54,10 +54,10 @@ namespace API.Controllers
             if (userId == null)
                 return NotFound("User does not exist!");
 
-            //Check if patient info already exist
+           // Check if patient info already exist
             var patientUserId = await _userRepository.getPatientId(userId);
 
-            if (patientUserId != null)
+            if ( patientUserId != Guid.Empty)
                 return BadRequest("User already has patient information");
 
             // From patientInfoDTO to PatientInfor
@@ -151,7 +151,7 @@ namespace API.Controllers
 
         }
 
-        [HttpGet("/CheckPatientInfo{userEmail}")]
+        [HttpGet("/CheckPatientInfo/{userEmail}")]
 
         public async Task<IActionResult> checkPatientInfo(string userEmail)
         {
