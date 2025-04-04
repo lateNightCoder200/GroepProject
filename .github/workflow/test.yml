@@ -1,0 +1,35 @@
+name: .NET Tests
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'  # Update if needed
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build Test Project
+        run: dotnet build TestApi/TestApi.csproj --configuration Release --no-restore
+
+      - name: Run Unit Tests
+        run: dotnet test TestApi/TestApi.csproj --configuration Release --no-build --logger trx
+
+      - name: Publish Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: TestApi/TestResults/
