@@ -11,6 +11,8 @@ using API.Repository.UserRepo;
 [TestClass]
 public class UserControllerTests
 {
+
+    //Unit tests
     private Mock<IUserRepository> _userRepositoryMock;
     private UserController _controller;
 

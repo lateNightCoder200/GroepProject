@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "TestApi\\UserControllerTests.cs",
               "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\TestApi\\UserControllerTests.cs",
               "RelativeToolTip": "TestApi\\UserControllerTests.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwBoAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:03:44.28Z",
               "EditorCaption": ""
@@ -102,8 +102,7 @@
               "RelativeToolTip": "TestApi\\MSTestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:03:41.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T14:03:41.143Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T22:11:18.791Z"
             },
             {
               "$type": "Document",
@@ -188,8 +186,7 @@
               "RelativeToolTip": "API\\Repository\\UserRepo\\UserRepository.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAiwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T22:11:18.789Z"
             },
             {
               "$type": "Document",
