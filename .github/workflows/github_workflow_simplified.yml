@@ -55,13 +55,13 @@ jobs:
         dotnet-version: ${{env.DOTNET_CORE_VERSION}}
 
     - name: Restore dependencies
-      run: dotnet restore   ./API/API/API.csproj
+      run: dotnet restore   ./API/API.sln
       
     - name: Build
-      run: dotnet build  ./API/API/API.csproj   --no-restore
+      run: dotnet build  ./API/API.sln   --no-restore
     
     - name: Test
-      run: dotnet test    ./API/API/API.csproj --no-build --verbosity normal
+      run: dotnet test    ./API/API.sln --no-build --verbosity normal
     
     - name: Publish
       run: dotnet publish ./${{ secrets.WEBAPI_PROJECT_NAME }} --output ${{env.PUBLISH_DIRECTORY}} --configuration Release 
