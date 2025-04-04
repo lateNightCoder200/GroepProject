@@ -54,23 +54,23 @@ jobs:
       with:
         dotnet-version: ${{env.DOTNET_CORE_VERSION}}
 
-    - name: Restore dependencies
-      run: dotnet restore   ./API/API.sln
-      
-    - name: Build
-      run: dotnet build  ./API/API.sln   --no-restore
-    
-    - name: Test
-      run: dotnet test    ./API/API.sln --no-build --verbosity normal
-    
-    - name: Publish
-      run: dotnet publish ./${{ secrets.WEBAPI_PROJECT_NAME }} --output ${{env.PUBLISH_DIRECTORY}} --configuration Release 
-    
-    - name: Publish Artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.ARTIFACT_NAME }}
-        path: ${{ env.PUBLISH_DIRECTORY}}
+   - name: Restore dependencies
+  run: dotnet restore ${{ secrets.WEBAPI_PROJECT_NAME }}
+
+- name: Build
+  run: dotnet build ${{ secrets.WEBAPI_PROJECT_NAME }} --no-restore
+
+- name: Test
+  run: dotnet test ${{ secrets.WEBAPI_PROJECT_NAME }} --no-build --verbosity normal
+
+- name: Publish
+  run: dotnet publish ${{ secrets.WEBAPI_PROJECT_NAME }} --output ${{ env.PUBLISH_DIRECTORY }} --configuration Release
+  
+- name: Publish Artifacts
+  uses: actions/upload-artifact@v4
+  with:
+    name: ${{ env.ARTIFACT_NAME }}
+    path: ${{ env.PUBLISH_DIRECTORY}}
 
   deploy:
     runs-on: ubuntu-latest
