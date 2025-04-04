@@ -1,22 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace API.DataModel.Models
+namespace API.DataModel.DTO
 {
-    public class PatientInfo
+    public class GetPatientInfoDTO
     {
-        [Key]
-        [Required]
-        public Guid Id { get; set; } = Guid.NewGuid();
+ 
 
         [Required]
-        [MaxLength(450)]
-        public string UserId {  get; set; }
-
-
-        [Required]
-        [MaxLength(100)]
-        public string treatmentPlan { get; set; }
+        public string userName { get; set; }
 
         [Required]
         [MaxLength(100)]
@@ -29,11 +20,6 @@ namespace API.DataModel.Models
         [Required]
         public string BirthDate { get; set; }
 
-
-        [Required]
-        public string treatmentDate { get; set; }
-
-
         [Required]
         [MaxLength(100)]
         public string City { get; set; }
@@ -42,9 +28,15 @@ namespace API.DataModel.Models
         [MaxLength(200)]
         public string Hospital { get; set; }
 
-
         [Required]
         [MaxLength(200)]
-        public string DoctorName {  get; set; }   
+        public string DoctorName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string treatmentPlan { get; set; }
+
+        [Required]
+        public string treatmentDate { get; set; }
     }
 }

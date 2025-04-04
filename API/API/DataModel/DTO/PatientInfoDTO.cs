@@ -27,5 +27,16 @@ namespace API.DataModel.DTO
         [Required]
         [MaxLength(200)]
         public string Hospital { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        public string DoctorName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string treatmentPlan { get; set; }
+
+        [Required]
+        public string treatmentDate { get; set; }
     }
 }

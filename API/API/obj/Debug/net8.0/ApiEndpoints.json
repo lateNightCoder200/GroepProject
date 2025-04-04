@@ -303,6 +303,22 @@
   },
   {
     "ContainingType": "API.Controllers.UserController",
+    "Method": "AddNote",
+    "RelativePath": "AddNote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "note",
+        "Type": "API.DataModel.DTO.NoteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.UserController",
     "Method": "SetUserName",
     "RelativePath": "api/User",
     "HttpMethod": "POST",
@@ -347,7 +363,69 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "API.DataModel.DTO.TrajectDataDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.UserController",
+    "Method": "getANote",
+    "RelativePath": "GetNote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "note",
+        "Type": "API.DataModel.DTO.GetNoteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API.DataModel.Models.Notes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API.Controllers.UserController",
+    "Method": "getNotes",
+    "RelativePath": "GetNotes/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[API.DataModel.Models.Notes, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "API.Controllers.UserController",
@@ -365,7 +443,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.DataModel.DTO.PatientInfoDTO",
+        "Type": "API.DataModel.DTO.GetPatientInfoDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\repository\\userrepo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\repository\\userrepo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\usernamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\usernamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\trajectdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\trajectdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\patientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\patientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\models\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\models\\notes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -30,8 +26,24 @@
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\notedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\getnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\getnotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\repository\\userrepo\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\repository\\userrepo\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\patientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\patientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\getpatientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\getpatientinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\models\\patientinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,6 +52,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\datamodel\\dto\\usernamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\datamodel\\dto\\usernamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,24 +69,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TrajectDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\TrajectDataDTO.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\TrajectDataDTO.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\TrajectDataDTO.cs",
+              "RelativeToolTip": "API\\DataModel\\DTO\\TrajectDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:06:09.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T11:08:47.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetPatientInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\GetPatientInfoDTO.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\GetPatientInfoDTO.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\GetPatientInfoDTO.cs",
+              "RelativeToolTip": "API\\DataModel\\DTO\\GetPatientInfoDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:01:23.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\NoteDTO.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\NoteDTO.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\NoteDTO.cs",
+              "RelativeToolTip": "API\\DataModel\\DTO\\NoteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:15:13.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetNoteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\GetNoteDTO.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\GetNoteDTO.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\GetNoteDTO.cs",
+              "RelativeToolTip": "API\\DataModel\\DTO\\GetNoteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:41:01.209Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Notes.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\Notes.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\Models\\Notes.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\Notes.cs",
+              "RelativeToolTip": "API\\DataModel\\Models\\Notes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T13:55:02.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repository\\UserRepo\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\UserRepository.cs",
+              "RelativeToolTip": "API\\Repository\\UserRepo\\UserRepository.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientInfo.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\PatientInfo.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\Models\\PatientInfo.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\PatientInfo.cs",
+              "RelativeToolTip": "API\\DataModel\\Models\\PatientInfo.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientInfoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\PatientInfoDTO.cs",
+              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\PatientInfoDTO.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\PatientInfoDTO.cs",
+              "RelativeToolTip": "API\\DataModel\\DTO\\PatientInfoDTO.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
+              "ToolTip": "C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T14:57:17.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repository\\UserRepo\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\IUserRepository.cs",
+              "RelativeToolTip": "API\\Repository\\UserRepo\\IUserRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA9wBcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:11:18.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T22:11:18.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserNameDTO.cs",
               "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\UserNameDTO.cs",
               "RelativeDocumentMoniker": "API\\DataModel\\DTO\\UserNameDTO.cs",
@@ -78,101 +242,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "API\\Repository\\UserRepo\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\IUserRepository.cs",
-              "RelativeToolTip": "API\\Repository\\UserRepo\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA+AAAA",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\UserRepository.cs",
-              "RelativeDocumentMoniker": "API\\Repository\\UserRepo\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Repository\\UserRepo\\UserRepository.cs",
-              "RelativeToolTip": "API\\Repository\\UserRepo\\UserRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywCEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "API.csproj",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
-              "RelativeDocumentMoniker": "API\\API.csproj",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
-              "RelativeToolTip": "API\\API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T22:11:18.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
-              "ToolTip": "C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-14T14:57:17.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientInfoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\PatientInfoDTO.cs",
-              "RelativeDocumentMoniker": "API\\DataModel\\DTO\\PatientInfoDTO.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\DTO\\PatientInfoDTO.cs",
-              "RelativeToolTip": "API\\DataModel\\DTO\\PatientInfoDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PatientInfo.cs",
-              "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\PatientInfo.cs",
-              "RelativeDocumentMoniker": "API\\DataModel\\Models\\PatientInfo.cs",
-              "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\DataModel\\Models\\PatientInfo.cs",
-              "RelativeToolTip": "API\\DataModel\\Models\\PatientInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.786Z"
+              "WhenOpened": "2025-03-26T14:06:09.982Z"
             }
           ]
         }
