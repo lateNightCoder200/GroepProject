@@ -1,0 +1,42 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace API.DataModel.DTO
+{
+    public class GetPatientInfoDTO
+    {
+ 
+
+        [Required]
+        public string userName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string FirstName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string LastName { get; set; }
+
+        [Required]
+        public string BirthDate { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string City { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        public string Hospital { get; set; }
+
+        [Required]
+        [MaxLength(200)]
+        public string DoctorName { get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string treatmentPlan { get; set; }
+
+        [Required]
+        public string treatmentDate { get; set; }
+    }
+}
