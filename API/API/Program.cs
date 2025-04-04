@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 
 //Database connection
-// Note! : Change your connection string in userscrets after pulling the API from github
+
 var SqlConnectionString = builder.Configuration["SqlConnectionString"];
 builder.Services.AddSingleton<DbContext>(provider => new DbContext(SqlConnectionString));
 
@@ -23,7 +23,8 @@ builder.Services.AddSingleton<DbContext>(provider => new DbContext(SqlConnection
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 
-
+var getSqlConnectionString = builder.Configuration.GetValue<string>("SqlConnectionString");
+var sqlConnectionStringFound = !string.IsNullOrWhiteSpace(getSqlConnectionString);
 
 
 
@@ -51,6 +52,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapGet("/", () => $"The API is up . Connection string found: {(sqlConnectionStringFound ? " " : " ")}");
 
 app.UseHttpsRedirection();
 
