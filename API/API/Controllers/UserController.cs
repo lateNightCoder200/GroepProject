@@ -13,6 +13,8 @@ namespace API.Controllers
     [Authorize]
     public class UserController : ControllerBase
     {
+
+        //Repository
         private readonly IUserRepository _userRepository;
 
         public UserController(IUserRepository userRepository)
