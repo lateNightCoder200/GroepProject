@@ -5,6 +5,45 @@
     "version": "1.0"
   },
   "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "API"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/logout": {
+      "post": {
+        "tags": [
+          "API"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/account/register": {
       "post": {
         "tags": [
@@ -335,26 +374,6 @@
           },
           "404": {
             "description": "Not Found"
-          }
-        }
-      }
-    },
-    "/logout": {
-      "post": {
-        "tags": [
-          "API"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": { }
-            }
-          },
-          "required": true
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
           }
         }
       }
