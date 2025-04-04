@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|c:\\users\\kathi\\desktop\\school\\periode 3\\group project\\group project 2\\groepproject\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5CB7873A-2266-4BA6-9063-C2E108A76087}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kathi\\AppData\\Roaming\\Microsoft\\UserSecrets\\baef5909-117d-4977-81e8-1c1f57a6e9bb\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -77,7 +77,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
@@ -101,8 +101,7 @@
               "RelativeToolTip": "API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:11:18.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T22:11:18.791Z"
             },
             {
               "$type": "Document",
@@ -142,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -167,15 +166,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "API.csproj",
               "DocumentMoniker": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
               "ToolTip": "C:\\Users\\kathi\\Desktop\\school\\periode 3\\Group Project\\Group project 2\\GroepProject\\API\\API\\API.csproj",
               "RelativeToolTip": "API\\API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T22:11:18.795Z"
+              "WhenOpened": "2025-03-24T22:11:18.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
